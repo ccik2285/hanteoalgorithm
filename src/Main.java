@@ -9,7 +9,7 @@ public class Main {
 
         for (int coin : coins) {
             for (int i = coin; i <= sum; i++) {
-                dp[i] += dp[i - coin];–
+                dp[i] += dp[i - coin];
             }
         }
 
